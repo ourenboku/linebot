@@ -15,14 +15,14 @@ def about_us_event(event):
         }
     ]
 
-    text_message = TextSendMessage(text='''$ 哈哈傻瓜蛋 $
-海綿寶寶
-                                   
--派大星
+    text_message = TextSendMessage(text='''$ Master SPA $
+專業海綿低能出身，融合東西方智障手法
 
--章魚哥
+-嚴格把關：所有用品皆有智障或派大星用過。
 
--蟹老闆。''', emojis=emoji)
+-設備齊全：夏天有蟹寶王，冬天有海之霸和樹屋。
+
+-獨立空間：專業乾淨高品質獨立蟹保空間。''', emojis=emoji)
 
     sticker_message = StickerSendMessage(
         package_id='8522',
