@@ -36,3 +36,6 @@ def handle_message(event):
 
     elif message_text=="@營業據點":
         location_event(event)
+
+if __name__ =="__main__":
+    app.run()
