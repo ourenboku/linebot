@@ -16,13 +16,13 @@ def about_us_event(event):
     ]
 
     text_message = TextSendMessage(text='''$ 哈哈傻瓜蛋 $
-海綿寶寶
+-海綿寶寶
                                    
-派大星
+-派大星
 
-章魚哥
+-章魚哥
 
-蟹老闆。''', emojis=emoji)
+-蟹老闆。''', emojis=emoji)
 
     sticker_message = StickerSendMessage(
         package_id='8521',
