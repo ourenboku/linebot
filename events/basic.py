@@ -16,7 +16,7 @@ def about_us_event(event):
     ]
 
     text_message = TextSendMessage(text='''$ 哈哈傻瓜蛋 $
--海綿寶寶
+海綿寶寶
                                    
 -派大星
 
@@ -25,11 +25,11 @@ def about_us_event(event):
 -蟹老闆。''', emojis=emoji)
 
     sticker_message = StickerSendMessage(
-        package_id='8521',
-        sticker_id='16581272'
+        package_id='8522',
+        sticker_id='16581271'
     )
 
-    about_us_img = 'https://i.imgur.com/70A4WdI.jpg'
+    about_us_img = 'https://i.imgur.com/33pk0Iw.jpeg'
 
     image_message = ImageSendMessage(
         original_content_url=about_us_img,
