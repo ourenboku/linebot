@@ -15,18 +15,18 @@ def about_us_event(event):
         }
     ]
 
-    text_message = TextSendMessage(text='''$ Master SPA $
-專業中醫推拿出身，融合東西方按摩手法
+    text_message = TextSendMessage(text='''$ 哈哈傻瓜蛋 $
+海綿寶寶
+                                   
+派大星
 
--嚴格把關：所有用品皆有消毒或採一次用品。
+章魚哥
 
--設備齊全：夏天有冷氣，冬天有電毯和暖氣。
-
--獨立空間：專業乾淨高品質獨立按摩空間。''', emojis=emoji)
+蟹老闆。''', emojis=emoji)
 
     sticker_message = StickerSendMessage(
-        package_id='8522',
-        sticker_id='16581271'
+        package_id='8521',
+        sticker_id='16581272'
     )
 
     about_us_img = 'https://i.imgur.com/70A4WdI.jpg'
@@ -42,10 +42,10 @@ def about_us_event(event):
     
 def location_event(event):
     location_message = LocationSendMessage(
-        title='Master SPA',
-        address='110台北市信義區信義路五段7號',
-        latitude=25.0333695,
-        longitude=121.5638839
+        title='哈哈傻瓜蛋',
+        address='台北地下街1號',
+        latitude=25.034563695,
+        longitude=121.5738839
     )
 
     line_bot_api.reply_message(
