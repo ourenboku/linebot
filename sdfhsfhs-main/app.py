@@ -37,5 +37,24 @@ def handle_message(event):
     elif message_text=="@營業據點":
         location_event(event)
 
+@handler.add(FollowEvent)
+def handle_follow(event):
+    welcome_msg = """Hello 您好,歡迎成為 寶石服飾 的好友!
+    
+我是 寶石服飾 的小幫手
+
+-想預約來店取件可以直接跟我互動喔
+-直接點選下方的選單功能
+
+-期待你的光臨
+"""
+
+
+    
+@handler.add(UnfollowEvent)
+def handle_unfollow(event):
+    print(event)
+
+
 if __name__ =="__main__":
     app.run()
